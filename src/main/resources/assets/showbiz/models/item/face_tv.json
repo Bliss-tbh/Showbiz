@@ -1,0 +1,7 @@
+{
+  "parent": "showbiz:custom/facemodel",
+  "textures": {
+    "2": "showbiz:block/face",
+    "particle": "minecraft:item/beetroot"
+  }
+}

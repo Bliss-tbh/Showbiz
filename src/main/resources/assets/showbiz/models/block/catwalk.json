@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/catwalk",
+  "textures": {
+    "all": "minecraft:block/blast_furnace_top",
+    "particle": "minecraft:block/blast_furnace_top",
+    "0": "showbiz:block/catwalktex"
+  },
+  "render_type": "translucent"
+}

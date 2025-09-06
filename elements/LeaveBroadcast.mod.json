@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Leave Broadcast",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "LeaveBroadcastOnKeyPressed"
+    }
+  }
+}

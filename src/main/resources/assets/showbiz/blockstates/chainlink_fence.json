@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "showbiz:block/chainlink_fence"
+    },
+    "facing=east": {
+      "model": "showbiz:block/chainlink_fence",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "showbiz:block/chainlink_fence",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "showbiz:block/chainlink_fence",
+      "y": 270
+    }
+  }
+}

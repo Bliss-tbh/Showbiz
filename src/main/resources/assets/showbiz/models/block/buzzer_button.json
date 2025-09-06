@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/buzzerbutton",
+  "textures": {
+    "all": "minecraft:block/redstone_block",
+    "particle": "minecraft:block/redstone_block",
+    "0": "showbiz:block/buzzerbuttonoff"
+  },
+  "render_type": "solid"
+}

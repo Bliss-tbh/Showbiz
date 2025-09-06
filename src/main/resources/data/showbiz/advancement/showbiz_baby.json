@@ -1,0 +1,42 @@
+{
+  "display": {
+    "background": "showbiz:textures/screens/advancement.png",
+    "icon": {
+      "id": "showbiz:camera"
+    },
+    "title": {
+      "translate": "advancements.showbiz_baby.title"
+    },
+    "description": {
+      "translate": "advancements.showbiz_baby.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "showbiz_baby_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:camera"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  }
+}

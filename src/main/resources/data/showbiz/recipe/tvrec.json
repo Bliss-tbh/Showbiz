@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "bcd"
+  ],
+  "key": {
+    "a": "minecraft:chain",
+    "b": "minecraft:redstone",
+    "c": "minecraft:calibrated_sculk_sensor",
+    "d": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "showbiz:camera",
+    "count": 1
+  }
+}

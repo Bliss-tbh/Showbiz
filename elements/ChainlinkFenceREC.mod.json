@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.CHAIN"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChainlinkFence"
+    },
+    "name": "chainlink_fence_rec",
+    "namespace": "mod"
+  }
+}

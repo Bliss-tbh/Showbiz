@@ -1,0 +1,2495 @@
+{
+  "mod_elements": [
+    {
+      "name": "Setlastx",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setlastx",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/SetlastxProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CameraOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Camera",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/camera.json",
+          "src/main/resources/assets/showbiz/blockstates/camera.json",
+          "src/main/resources/assets/showbiz/items/camera.json",
+          "src/main/resources/assets/showbiz/models/block/camera.json",
+          "src/main/java/net/mcreator/showbiz/block/CameraBlock.java",
+          "src/main/java/net/mcreator/showbiz/block/entity/CameraBlockEntity.java",
+          "src/main/resources/assets/showbiz/models/item/camera.json"
+        ]
+      }
+    },
+    {
+      "name": "Spectatormode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spectatormode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/SpectatormodeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LetmeoutDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letmeout_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/LetmeoutDisplayOverlayIngameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Letmeout",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letmeout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/client/screens/LetmeoutOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "LeaveBroadcastOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_broadcast_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/LeaveBroadcastOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LeaveBroadcast",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_broadcast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/network/LeaveBroadcastMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CameraBlockAddedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Goobertalert",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goobertalert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/GoobertalertProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CameraOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Synctest",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synctest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/SynctestProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Showbiz",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showbiz",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CameraON",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/blockstates/camera_on.json",
+          "src/main/java/net/mcreator/showbiz/block/entity/CameraONBlockEntity.java",
+          "src/main/resources/assets/showbiz/models/block/camera_on.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/camera_on.json",
+          "src/main/java/net/mcreator/showbiz/block/CameraONBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraOnTickUpdateON",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_on_tick_update_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CameraOnTickUpdateONProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RemoteRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/RemoteRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RemoteRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/RemoteRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Remote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/remote.json",
+          "src/main/resources/assets/showbiz/models/item/remote.json",
+          "src/main/java/net/mcreator/showbiz/item/RemoteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CameraONEmittedRedstonePower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camera_on_emitted_redstone_power",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CameraONEmittedRedstonePowerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TVREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tvrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/tvrec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/tvrec.json"
+        ]
+      }
+    },
+    {
+      "name": "RemoteREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/remote_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/remote_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "Tipgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tipgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/world/inventory/TipguiMenu.java",
+          "src/main/java/net/mcreator/showbiz/network/TipguiButtonMessage.java",
+          "src/main/java/net/mcreator/showbiz/client/gui/TipguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "TipJar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_jar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/block/TipJarBlock.java",
+          "src/main/java/net/mcreator/showbiz/block/entity/TipJarBlockEntity.java",
+          "src/main/resources/data/showbiz/loot_table/blocks/tip_jar.json",
+          "src/main/resources/assets/showbiz/models/block/tip_jar.json",
+          "src/main/resources/assets/showbiz/models/item/tip_jar.json",
+          "src/main/resources/assets/showbiz/blockstates/tip_jar.json",
+          "src/main/resources/assets/showbiz/items/tip_jar.json"
+        ]
+      }
+    },
+    {
+      "name": "FaceTV",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "face_tv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/face_tv.json",
+          "src/main/java/net/mcreator/showbiz/item/FaceTVItem.java",
+          "src/main/resources/assets/showbiz/items/face_tv.json"
+        ]
+      }
+    },
+    {
+      "name": "FaceTVItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "face_tv_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/FaceTVItemInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nodeathonourchannel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nodeathonourchannel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/NodeathonourchannelProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StageLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stage_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/stage_light.json",
+          "src/main/java/net/mcreator/showbiz/block/StageLightBlock.java",
+          "src/main/resources/assets/showbiz/blockstates/stage_light.json",
+          "src/main/resources/assets/showbiz/items/stage_light.json",
+          "src/main/resources/assets/showbiz/models/item/stage_light.json",
+          "src/main/resources/assets/showbiz/models/block/stage_light.json"
+        ]
+      }
+    },
+    {
+      "name": "Catwalk",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/blockstates/catwalk.json",
+          "src/main/java/net/mcreator/showbiz/block/CatwalkBlock.java",
+          "src/main/resources/data/showbiz/loot_table/blocks/catwalk.json",
+          "src/main/resources/assets/showbiz/models/block/catwalk.json",
+          "src/main/resources/assets/showbiz/models/item/catwalk.json",
+          "src/main/resources/assets/showbiz/items/catwalk.json"
+        ]
+      }
+    },
+    {
+      "name": "TipJarREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_jar_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/tip_jar_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/tip_jar_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "StagelightREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stagelight_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/stagelight_rec.json",
+          "src/main/resources/data/showbiz/recipe/stagelight_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "CatwalkREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catwalk_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/catwalk_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/catwalk_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "Clapboard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clapboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/blockstates/clapboard.json",
+          "src/main/java/net/mcreator/showbiz/block/ClapboardBlock.java",
+          "src/main/resources/data/showbiz/loot_table/blocks/clapboard.json",
+          "src/main/resources/assets/showbiz/models/block/clapboard.json",
+          "src/main/resources/assets/showbiz/models/item/clapboard.json",
+          "src/main/resources/assets/showbiz/items/clapboard.json"
+        ]
+      }
+    },
+    {
+      "name": "Clapper",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clapper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/block/clapper_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "ClapboardOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clapboard_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/ClapboardOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ClapperREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clapper_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/clapper_rec.json",
+          "src/main/resources/data/showbiz/recipe/clapper_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "CassettePlayer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/block/entity/CassettePlayerBlockEntity.java",
+          "src/main/java/net/mcreator/showbiz/block/CassettePlayerBlock.java",
+          "src/main/resources/data/showbiz/loot_table/blocks/cassette_player.json",
+          "src/main/resources/assets/showbiz/models/item/cassette_player.json",
+          "src/main/resources/assets/showbiz/models/block/cassette_player.json",
+          "src/main/resources/assets/showbiz/blockstates/cassette_player.json",
+          "src/main/resources/assets/showbiz/items/cassette_player.json"
+        ]
+      }
+    },
+    {
+      "name": "Cassette",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/cassette.json",
+          "src/main/java/net/mcreator/showbiz/item/CassetteItem.java",
+          "src/main/resources/assets/showbiz/items/cassette.json"
+        ]
+      }
+    },
+    {
+      "name": "Centrescreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrescreen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/centrescreen.json",
+          "src/main/java/net/mcreator/showbiz/item/CentrescreenItem.java",
+          "src/main/resources/assets/showbiz/models/item/centrescreen.json"
+        ]
+      }
+    },
+    {
+      "name": "Laughing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laughing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/laughing.json",
+          "src/main/resources/assets/showbiz/items/laughing.json",
+          "src/main/java/net/mcreator/showbiz/item/LaughingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Limeland",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeland",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/item/LimelandItem.java",
+          "src/main/resources/assets/showbiz/items/limeland.json",
+          "src/main/resources/assets/showbiz/models/item/limeland.json"
+        ]
+      }
+    },
+    {
+      "name": "Presenting",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "presenting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/presenting.json",
+          "src/main/resources/assets/showbiz/models/item/presenting.json",
+          "src/main/java/net/mcreator/showbiz/item/PresentingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sponsorship",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponsorship",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/item/SponsorshipItem.java",
+          "src/main/resources/assets/showbiz/items/sponsorship.json",
+          "src/main/resources/assets/showbiz/models/item/sponsorship.json"
+        ]
+      }
+    },
+    {
+      "name": "Theboard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/theboard.json",
+          "src/main/java/net/mcreator/showbiz/item/TheboardItem.java",
+          "src/main/resources/assets/showbiz/models/item/theboard.json"
+        ]
+      }
+    },
+    {
+      "name": "CentrescreenREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centrescreen_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/centrescreen_rec.json",
+          "src/main/resources/data/showbiz/recipe/centrescreen_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyCassette",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_cassette",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/empty_cassette.json",
+          "src/main/java/net/mcreator/showbiz/item/EmptyCassetteItem.java",
+          "src/main/resources/assets/showbiz/models/item/empty_cassette.json"
+        ]
+      }
+    },
+    {
+      "name": "LaughingREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laughing_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/laughing_rec.json",
+          "src/main/resources/data/showbiz/recipe/laughing_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "EmptyCassete",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_cassete",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/empty_cassete.json",
+          "src/main/resources/data/showbiz/recipe/empty_cassete.json"
+        ]
+      }
+    },
+    {
+      "name": "LimelandREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limeland_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/limeland_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/limeland_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "PresentingREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "presenting_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/presenting_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/presenting_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "SponsorshipREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponsorship_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/sponsorship_rec.json",
+          "src/main/resources/data/showbiz/recipe/sponsorship_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "BoardREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "board_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/board_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/board_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "CassetePlayerREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassete_player_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/cassete_player_rec.json",
+          "src/main/resources/data/showbiz/recipe/cassete_player_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "CassettePlayerOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_player_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CassettePlayerOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CassettePlayerBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_player_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CassettePlayerBlockDestroyedByPlayerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RelayOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relay_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/RelayOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Relay",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/relay.json",
+          "src/main/java/net/mcreator/showbiz/block/RelayBlock.java",
+          "src/main/resources/assets/showbiz/models/block/relay.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/relay.json",
+          "src/main/resources/assets/showbiz/blockstates/relay.json",
+          "src/main/resources/assets/showbiz/models/item/relay.json"
+        ]
+      }
+    },
+    {
+      "name": "RelayREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relay_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/relay_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/relay_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "AwwREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aww_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/aww_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/aww_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "DonationPresent",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_present",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/block/donation_present.json",
+          "src/main/resources/assets/showbiz/models/item/donation_present.json",
+          "src/main/resources/assets/showbiz/blockstates/donation_present.json",
+          "src/main/java/net/mcreator/showbiz/block/DonationPresentBlock.java",
+          "src/main/resources/assets/showbiz/items/donation_present.json"
+        ]
+      }
+    },
+    {
+      "name": "DonationPresents",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_presents",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/donation_present.json"
+        ]
+      }
+    },
+    {
+      "name": "DonationPresentOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_present_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/DonationPresentOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DonationMailbox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_mailbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/donation_mailbox.json",
+          "src/main/resources/assets/showbiz/models/block/donation_mailbox.json",
+          "src/main/java/net/mcreator/showbiz/block/entity/DonationMailboxBlockEntity.java",
+          "src/main/resources/assets/showbiz/blockstates/donation_mailbox.json",
+          "src/main/java/net/mcreator/showbiz/block/DonationMailboxBlock.java",
+          "src/main/resources/data/showbiz/loot_table/blocks/donation_mailbox.json",
+          "src/main/resources/assets/showbiz/items/donation_mailbox.json"
+        ]
+      }
+    },
+    {
+      "name": "Mailbox",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mailbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/mailbox.json",
+          "src/main/resources/data/showbiz/advancement/recipes/mailbox.json"
+        ]
+      }
+    },
+    {
+      "name": "DonationMailboxOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_mailbox_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/DonationMailboxOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WrenchRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/WrenchRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Wrench",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/item/WrenchItem.java",
+          "src/main/resources/assets/showbiz/items/wrench.json",
+          "src/main/resources/assets/showbiz/models/item/wrench.json"
+        ]
+      }
+    },
+    {
+      "name": "Tipbuttonclick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tipbuttonclick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/TipbuttonclickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Tiplimit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiplimit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/TiplimitProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Cooldowncalculator",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldowncalculator",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CooldowncalculatorProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Tipdisplay",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tipdisplay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/TipdisplayProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Poweredmailbox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poweredmailbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/block/poweredmailbox.json",
+          "src/main/java/net/mcreator/showbiz/block/entity/PoweredmailboxBlockEntity.java",
+          "src/main/java/net/mcreator/showbiz/block/PoweredmailboxBlock.java",
+          "src/main/resources/assets/showbiz/blockstates/poweredmailbox.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/poweredmailbox.json"
+        ]
+      }
+    },
+    {
+      "name": "PoweredmailboxBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poweredmailbox_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/PoweredmailboxBlockAddedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DonationMailboxOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donation_mailbox_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/DonationMailboxOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CassettePlayerRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_player_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CassettePlayerRedstoneOnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TipJarBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_jar_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/TipJarBlockAddedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TipJarOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tip_jar_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/TipJarOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Snowing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/snowing.json",
+          "src/main/resources/assets/showbiz/items/snowing.json",
+          "src/main/java/net/mcreator/showbiz/item/SnowingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SnowingREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snowing_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/snowing_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/snowing_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "BuzzerButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buzzer_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/block/BuzzerButtonBlock.java",
+          "src/main/resources/assets/showbiz/items/buzzer_button.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/buzzer_button.json",
+          "src/main/java/net/mcreator/showbiz/block/entity/BuzzerButtonBlockEntity.java",
+          "src/main/resources/assets/showbiz/models/block/buzzer_button.json",
+          "src/main/resources/assets/showbiz/models/item/buzzer_button.json",
+          "src/main/resources/assets/showbiz/blockstates/buzzer_button.json"
+        ]
+      }
+    },
+    {
+      "name": "Buzzerbuttonblock",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buzzerbuttonblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/block/buzzerbuttonblock_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "BuzzerButtonOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buzzer_button_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/BuzzerButtonOnBlockRightClickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Container",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "container",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/world/inventory/ContainerMenu.java",
+          "src/main/java/net/mcreator/showbiz/client/gui/ContainerScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CassettePlayerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cassette_player_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/CassettePlayerOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Starwall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starwall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/models/item/starwall.json",
+          "src/main/resources/assets/showbiz/items/starwall.json",
+          "src/main/java/net/mcreator/showbiz/block/StarwallBlock.java",
+          "src/main/resources/assets/showbiz/models/block/starwall.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/starwall.json",
+          "src/main/resources/assets/showbiz/blockstates/starwall.json"
+        ]
+      }
+    },
+    {
+      "name": "GearboxOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/GearboxOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Gearbox",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/items/gearbox.json",
+          "src/main/java/net/mcreator/showbiz/block/GearboxBlock.java",
+          "src/main/resources/assets/showbiz/models/item/gearbox.json",
+          "src/main/java/net/mcreator/showbiz/block/entity/GearboxBlockEntity.java",
+          "src/main/resources/assets/showbiz/models/block/gearbox.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/gearbox.json",
+          "src/main/resources/assets/showbiz/blockstates/gearbox.json"
+        ]
+      }
+    },
+    {
+      "name": "GearboxEmittedRedstonePower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox_emitted_redstone_power",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/GearboxEmittedRedstonePowerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GearboxREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/recipes/gearbox_rec.json",
+          "src/main/resources/data/showbiz/recipe/gearbox_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "GearboxPowered",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox_powered",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/gearbox_powered.json",
+          "src/main/resources/assets/showbiz/models/block/gearbox_powered.json",
+          "src/main/resources/assets/showbiz/blockstates/gearbox_powered.json",
+          "src/main/java/net/mcreator/showbiz/block/GearboxPoweredBlock.java",
+          "src/main/java/net/mcreator/showbiz/block/entity/GearboxPoweredBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GearboxOnTickUpdatePowered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gearbox_on_tick_update_powered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/GearboxOnTickUpdatePoweredProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ChainlinkFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainlink_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/chainlink_fence.json",
+          "src/main/resources/assets/showbiz/items/chainlink_fence.json",
+          "src/main/resources/assets/showbiz/models/block/chainlink_fence.json",
+          "src/main/resources/assets/showbiz/models/item/chainlink_fence.json",
+          "src/main/resources/assets/showbiz/blockstates/chainlink_fence.json",
+          "src/main/java/net/mcreator/showbiz/block/ChainlinkFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChainlinkFenceREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainlink_fence_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/chainlink_fence_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/chainlink_fence_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "WrenchREC",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/wrench_rec.json",
+          "src/main/resources/data/showbiz/advancement/recipes/wrench_rec.json"
+        ]
+      }
+    },
+    {
+      "name": "ShowbizBaby",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showbiz_baby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/showbiz_baby.json"
+        ]
+      }
+    },
+    {
+      "name": "Glamtime",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glamtime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/glamtime.json"
+        ]
+      }
+    },
+    {
+      "name": "FunkyFreshTunez",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funky_fresh_tunez",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/funky_fresh_tunez.json"
+        ]
+      }
+    },
+    {
+      "name": "Lights",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lights",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/lights.json"
+        ]
+      }
+    },
+    {
+      "name": "Cameraad",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cameraad",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/cameraad.json"
+        ]
+      }
+    },
+    {
+      "name": "Action",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "action",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/action.json"
+        ]
+      }
+    },
+    {
+      "name": "Whowantstobeamillionare",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whowantstobeamillionare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/whowantstobeamillionare.json"
+        ]
+      }
+    },
+    {
+      "name": "Imanengineer",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imanengineer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/imanengineer.json"
+        ]
+      }
+    },
+    {
+      "name": "Plzdonate",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plzdonate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/plzdonate.json"
+        ]
+      }
+    },
+    {
+      "name": "Inboxopen",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inboxopen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/inboxopen.json"
+        ]
+      }
+    },
+    {
+      "name": "Cathodescreams",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cathodescreams",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/cathodescreams.json"
+        ]
+      }
+    },
+    {
+      "name": "Backtothe90s",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backtothe_90s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/backtothe_90s.json"
+        ]
+      }
+    },
+    {
+      "name": "Thisdosenthaveabombinitdoesit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thisdosenthaveabombinitdoesit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/thisdosenthaveabombinitdoesit.json"
+        ]
+      }
+    },
+    {
+      "name": "Signalsimulator",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "signalsimulator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/advancement/signalsimulator.json"
+        ]
+      }
+    },
+    {
+      "name": "ConfettiCannon",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confetti_cannon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/block/ConfettiCannonBlock.java",
+          "src/main/resources/assets/showbiz/models/item/confetti_cannon.json",
+          "src/main/resources/assets/showbiz/models/block/confetti_cannon.json",
+          "src/main/resources/data/showbiz/loot_table/blocks/confetti_cannon.json",
+          "src/main/resources/assets/showbiz/items/confetti_cannon.json",
+          "src/main/resources/assets/showbiz/blockstates/confetti_cannon.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkConfetti",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_confetti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/showbiz/client/particle/PinkConfettiParticle.java",
+          "src/main/resources/assets/showbiz/particles/pink_confetti.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeConfetti",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_confetti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/particles/orange_confetti.json",
+          "src/main/java/net/mcreator/showbiz/client/particle/OrangeConfettiParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueConfetti",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_confetti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/particles/blue_confetti.json",
+          "src/main/java/net/mcreator/showbiz/client/particle/BlueConfettiParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowConfetti",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_confetti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/particles/yellow_confetti.json",
+          "src/main/java/net/mcreator/showbiz/client/particle/YellowConfettiParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackConfetti",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_confetti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/showbiz/particles/black_confetti.json",
+          "src/main/java/net/mcreator/showbiz/client/particle/BlackConfettiParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "ConfettiCannonRedstoneOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confetti_cannon_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/showbiz/procedures/ConfettiCannonRedstoneOnProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "lastX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "LastY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "LastZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spectatormode",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "goobert",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "insync",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "synccooldown",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "TVX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "TVY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "TVZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "corporealmode",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "playerdonateuses",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "playerdonatecooldown",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "clapper",
+      "files": [
+        "clap"
+      ],
+      "category": "block",
+      "subtitle": "clapper clapping"
+    },
+    {
+      "name": "casseteinputoutput",
+      "files": [
+        "casseteinput"
+      ],
+      "category": "block",
+      "subtitle": "cassete player"
+    },
+    {
+      "name": "aww",
+      "files": [
+        "aww"
+      ],
+      "category": "voice",
+      "subtitle": "crow awwing"
+    },
+    {
+      "name": "centrescreen",
+      "files": [
+        "centrescreen"
+      ],
+      "category": "voice",
+      "subtitle": "\"Centerscreen\" playing"
+    },
+    {
+      "name": "laughing",
+      "files": [
+        "laughing"
+      ],
+      "category": "voice",
+      "subtitle": "cassette laughing"
+    },
+    {
+      "name": "limeland",
+      "files": [
+        "limeland"
+      ],
+      "category": "voice",
+      "subtitle": "\"limeland\" playing"
+    },
+    {
+      "name": "presenting",
+      "files": [
+        "presenting"
+      ],
+      "category": "voice",
+      "subtitle": "\"presenting\" playing"
+    },
+    {
+      "name": "sponsorship",
+      "files": [
+        "sponsorship"
+      ],
+      "category": "voice",
+      "subtitle": "\"sponsorship\" playing"
+    },
+    {
+      "name": "theboard",
+      "files": [
+        "theboard"
+      ],
+      "category": "voice",
+      "subtitle": "\"the board\" playing"
+    },
+    {
+      "name": "snowingelse",
+      "files": [
+        "itssnowingsomewhereelse"
+      ],
+      "category": "voice",
+      "subtitle": "\"it\u0027s snowing somewhere else\" playing"
+    },
+    {
+      "name": "cannon",
+      "files": [
+        "confetti-pop-sound"
+      ],
+      "category": "block",
+      "subtitle": "Confetti cannon"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ChainlinkFence",
+      "~CUSTOM:Poweredmailbox",
+      "~CUSTOM:DonationMailbox",
+      "~CUSTOM:Relay",
+      "~CUSTOM:CassettePlayer",
+      "~CUSTOM:Clapboard",
+      "~CUSTOM:Catwalk",
+      "~CUSTOM:StageLight"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:DonationPresent"
+    ],
+    "ITEMS:forge:goodies": [
+      "CUSTOM:StageLight",
+      "CUSTOM:Catwalk",
+      "CUSTOM:Clapboard",
+      "CUSTOM:CassettePlayer",
+      "CUSTOM:Cassette",
+      "CUSTOM:Centrescreen",
+      "CUSTOM:Laughing",
+      "CUSTOM:Limeland",
+      "CUSTOM:Presenting",
+      "CUSTOM:Sponsorship",
+      "CUSTOM:Theboard",
+      "CUSTOM:EmptyCassette",
+      "CUSTOM:Relay",
+      "CUSTOM:DonationPresent",
+      "CUSTOM:DonationMailbox",
+      "CUSTOM:Wrench",
+      "Items.DIAMOND",
+      "Items.NETHERITE_SCRAP"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ChainlinkFence"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.showbiz.camera": "Camera",
+      "gui.showbiz.letmeout.label_press_space_to_leave_the_broadca": "Press P to leave the broadcast",
+      "key.showbiz.leave_broadcast": "Leave Broadcast",
+      "item_group.showbiz.showbiz": "Showbiz",
+      "item.showbiz.camera_on": "Camera",
+      "item.showbiz.remote": "Remote",
+      "item.showbiz.remote.description_0": "Right click to bind to a TV, or to another remote",
+      "gui.showbiz.tipgui.button_tip": "Tip?",
+      "item.showbiz.tip_jar": "Tip Jar",
+      "item.showbiz.face_tv": "Face TV",
+      "subtitles.clapper": "clapper clapping",
+      "item.showbiz.stage_light": "Stage Light",
+      "item.showbiz.catwalk": "Catwalk",
+      "item.showbiz.clapboard": "Clapboard",
+      "subtitles.casseteinputoutput": "cassete player",
+      "subtitles.aww": "crow awwing",
+      "subtitles.centrescreen": "\"Centerscreen\" playing",
+      "subtitles.laughing": "cassette laughing",
+      "subtitles.limeland": "\"limeland\" playing",
+      "subtitles.presenting": "\"presenting\" playing",
+      "subtitles.sponsorship": "\"sponsorship\" playing",
+      "subtitles.theboard": "\"the board\" playing",
+      "item.showbiz.cassette_player": "Cassette Player",
+      "item.showbiz.cassette.description_0": "- aww sound effect",
+      "item.showbiz.cassette": "Cassette",
+      "item.showbiz.centrescreen.description_0": "- centre screen sound effect",
+      "item.showbiz.centrescreen": "Cassette",
+      "item.showbiz.laughing": "Cassette",
+      "item.showbiz.laughing.description_0": "- laughing sound effect",
+      "item.showbiz.limeland": "Cassette",
+      "item.showbiz.limeland.description_0": "- limeland sound effect",
+      "item.showbiz.presenting": "Cassette",
+      "item.showbiz.presenting.description_0": "- Presenting sound effect",
+      "item.showbiz.sponsorship.description_0": "- Sponsorship sound effect",
+      "item.showbiz.sponsorship": "Cassette",
+      "item.showbiz.theboard.description_0": "- The board sound effect",
+      "item.showbiz.theboard": "Cassette",
+      "item.showbiz.empty_cassette": "Empty Cassette",
+      "item.showbiz.relay": "Relay",
+      "item.showbiz.donation_present": "Donation Present",
+      "item.showbiz.donation_mailbox": "Donation Mailbox",
+      "item.showbiz.wrench": "Wrench",
+      "item.showbiz.wrench.description_0": "Used for linking a Donation box to a tip jar (in that order)",
+      "gui.showbiz.tipgui.label_on_cooldown_for_30_minutes": "On cooldown for 30 minutes!",
+      "item.showbiz.poweredmailbox": "Donation Mailbox",
+      "subtitles.snowingelse": "\"it\u0027s snowing somewhere else\" playing",
+      "item.showbiz.snowing": "Cassette",
+      "item.showbiz.snowing.description_0": "- Snowing somewhere else sound effect",
+      "item.showbiz.buzzer_button": "Buzzer Button",
+      "item.showbiz.starwall": "Starwall",
+      "item.showbiz.gearbox": "Gearbox",
+      "item.showbiz.wrench.description_1": "This also works with Buzzer button and gearbox",
+      "item.showbiz.gearbox_powered": "Gearbox",
+      "item.showbiz.chainlink_fence": "Chainlink Fence",
+      "advancements.showbiz_baby.title": "Showbiz Baby",
+      "advancements.showbiz_baby.descr": "Obtain your first tv",
+      "advancements.glamtime.title": "Glamtime",
+      "advancements.glamtime.descr": "Create some tastefull decor",
+      "advancements.funky_fresh_tunez.descr": "get yo self a cassette player!",
+      "advancements.funky_fresh_tunez.title": "Funky fresh tunez",
+      "advancements.lights.title": "Lights,",
+      "advancements.lights.descr": "Obtain a stagelight",
+      "advancements.cameraad.descr": "Obtain a catwalk",
+      "advancements.cameraad.title": "Camera,",
+      "advancements.action.title": "Action!",
+      "advancements.action.descr": "Obtain a clapboard",
+      "advancements.whowantstobeamillionare.descr": "Obtain a buzzerbutton",
+      "advancements.whowantstobeamillionare.title": "Who wants to be a millionare?",
+      "advancements.imanengineer.title": "I\u0027m an engineer",
+      "advancements.imanengineer.descr": "I solve practical problems.",
+      "advancements.plzdonate.title": "Plz donate!",
+      "advancements.plzdonate.descr": "Craft a tip jar",
+      "advancements.inboxopen.descr": "Craft a donation mailbox",
+      "advancements.inboxopen.title": "Opening my viewers CRAZY packages!",
+      "advancements.cathodescreams.descr": "Craft a centrescreen cassette",
+      "advancements.cathodescreams.title": "Cathode screams!",
+      "advancements.backtothe_90s.descr": "Craft an empy cassette",
+      "advancements.backtothe_90s.title": "back to the 80s",
+      "advancements.thisdosenthaveabombinitdoesit.descr": "Obtain your first donation present",
+      "advancements.thisdosenthaveabombinitdoesit.title": "This dosen\u0027t have a bomb in it, does it?",
+      "advancements.signalsimulator.descr": "Obtain a relay",
+      "advancements.signalsimulator.title": "Signal simulator",
+      "item.showbiz.confetti_cannon": "Confetti Cannon",
+      "subtitles.cannon": "Confetti cannon"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/showbiz/sounds.json",
+      "src/main/java/net/mcreator/showbiz/ShowbizMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/showbiz/network/ShowbizModVariables.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModSounds.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModTabs.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModScreens.java",
+      "src/main/java/net/mcreator/showbiz/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModMenus.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModKeyMappings.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModParticles.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModParticleTypes.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModBlocks.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModBlockEntities.java",
+      "src/main/java/net/mcreator/showbiz/init/ShowbizModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "showbiz",
+    "modName": "Showbiz",
+    "version": "1.0.0",
+    "author": "Eternus",
+    "websiteURL": "https://modrinth.com/user/Eternus",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Mod made by Eternus, music by Toby fox",
+    "modElementsPackage": "net.mcreator.showbiz"
+  },
+  "mcreatorVersion": 202500228610
+}

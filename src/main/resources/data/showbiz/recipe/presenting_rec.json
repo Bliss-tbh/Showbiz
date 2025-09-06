@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "showbiz:empty_cassette",
+    "minecraft:book"
+  ],
+  "result": {
+    "id": "showbiz:presenting",
+    "count": 1
+  }
+}

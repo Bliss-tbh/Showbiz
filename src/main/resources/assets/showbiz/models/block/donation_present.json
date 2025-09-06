@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/present",
+  "textures": {
+    "all": "minecraft:block/red_concrete_powder",
+    "particle": "minecraft:block/red_concrete_powder",
+    "0": "showbiz:block/presenttex"
+  },
+  "render_type": "cutout_mipped"
+}

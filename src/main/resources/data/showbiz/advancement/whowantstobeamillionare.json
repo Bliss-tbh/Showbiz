@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "showbiz:buzzer_button"
+    },
+    "title": {
+      "translate": "advancements.whowantstobeamillionare.title"
+    },
+    "description": {
+      "translate": "advancements.whowantstobeamillionare.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "whowantstobeamillionare_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:buzzer_button"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  },
+  "parent": "showbiz:glamtime"
+}

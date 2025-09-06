@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "showbiz:block/donation_mailbox"
+    },
+    "facing=east": {
+      "model": "showbiz:block/donation_mailbox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "showbiz:block/donation_mailbox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "showbiz:block/donation_mailbox",
+      "y": 270
+    }
+  }
+}

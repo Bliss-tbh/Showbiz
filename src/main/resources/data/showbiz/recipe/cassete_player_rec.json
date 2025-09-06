@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "showbiz:empty_cassette",
+    "c": "minecraft:stone_button"
+  },
+  "result": {
+    "id": "showbiz:cassette_player",
+    "count": 1
+  }
+}

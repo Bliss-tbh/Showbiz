@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "showbiz:empty_cassette",
+    "minecraft:stone_pressure_plate"
+  ],
+  "result": {
+    "id": "showbiz:theboard",
+    "count": 1
+  }
+}

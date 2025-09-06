@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/buzzeron",
+  "textures": {
+    "all": "minecraft:block/redstone_block",
+    "particle": "minecraft:block/redstone_block",
+    "0": "showbiz:block/buzzerontex"
+  },
+  "render_type": "solid"
+}

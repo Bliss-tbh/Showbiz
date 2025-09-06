@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "showbiz:block/buzzer_button"
+    },
+    "blockstate=1": {
+      "model": "showbiz:block/buzzerbuttonblock_blockstate_0"
+    }
+  }
+}

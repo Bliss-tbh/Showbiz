@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "showbiz:blocks/donation_mailbox",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "showbiz:donation_mailbox"
+        }
+      ]
+    }
+  ]
+}

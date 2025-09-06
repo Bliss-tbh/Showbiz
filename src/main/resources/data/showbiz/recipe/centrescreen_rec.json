@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "showbiz:cassette",
+    "showbiz:theboard",
+    "showbiz:laughing",
+    "showbiz:sponsorship",
+    "showbiz:limeland",
+    "showbiz:presenting"
+  ],
+  "result": {
+    "id": "showbiz:centrescreen",
+    "count": 1
+  }
+}

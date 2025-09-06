@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain",
+    "minecraft:chain"
+  ],
+  "result": {
+    "id": "showbiz:chainlink_fence",
+    "count": 1
+  }
+}

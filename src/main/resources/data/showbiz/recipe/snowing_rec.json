@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "showbiz:empty_cassette",
+    "minecraft:packed_ice"
+  ],
+  "result": {
+    "id": "showbiz:snowing",
+    "count": 1
+  }
+}

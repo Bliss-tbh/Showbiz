@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/tipjar",
+  "textures": {
+    "all": "minecraft:block/raw_gold_block",
+    "particle": "minecraft:block/raw_gold_block",
+    "0": "showbiz:block/tipjars"
+  },
+  "render_type": "cutout_mipped"
+}

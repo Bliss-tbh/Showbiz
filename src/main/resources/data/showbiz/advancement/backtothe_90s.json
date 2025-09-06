@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "showbiz:empty_cassette"
+    },
+    "title": {
+      "translate": "advancements.backtothe_90s.title"
+    },
+    "description": {
+      "translate": "advancements.backtothe_90s.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "backtothe_90s_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:empty_cassette"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  },
+  "parent": "showbiz:funky_fresh_tunez"
+}

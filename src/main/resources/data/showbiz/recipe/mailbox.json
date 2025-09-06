@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:chest"
+  },
+  "result": {
+    "id": "showbiz:donation_mailbox",
+    "count": 1
+  }
+}

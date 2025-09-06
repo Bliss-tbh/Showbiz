@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "showbiz:empty_cassette",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "showbiz:limeland",
+    "count": 1
+  }
+}

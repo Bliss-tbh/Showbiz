@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "showbiz:block/starwall",
+    "up": "showbiz:block/starwall",
+    "north": "showbiz:block/starwall",
+    "east": "showbiz:block/starwall",
+    "south": "showbiz:block/starwall",
+    "west": "showbiz:block/starwall",
+    "particle": "showbiz:block/starwall"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "showbiz:cassette_player"
+    },
+    "title": {
+      "translate": "advancements.funky_fresh_tunez.title"
+    },
+    "description": {
+      "translate": "advancements.funky_fresh_tunez.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "funky_fresh_tunez_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:cassette_player"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  },
+  "parent": "showbiz:showbiz_baby"
+}

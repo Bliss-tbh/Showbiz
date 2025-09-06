@@ -1,0 +1,68 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Cassette"
+      },
+      {
+        "value": "CUSTOM:Laughing"
+      },
+      {
+        "value": "CUSTOM:Limeland"
+      },
+      {
+        "value": "CUSTOM:Presenting"
+      },
+      {
+        "value": "CUSTOM:Sponsorship"
+      },
+      {
+        "value": "CUSTOM:Theboard"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cassette"
+      },
+      {
+        "value": "CUSTOM:Theboard"
+      },
+      {
+        "value": "CUSTOM:Laughing"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sponsorship"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Limeland"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Presenting"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Centrescreen"
+    },
+    "name": "centrescreen_rec",
+    "namespace": "mod"
+  }
+}

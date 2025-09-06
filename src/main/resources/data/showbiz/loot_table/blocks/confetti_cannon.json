@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "showbiz:blocks/confetti_cannon",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "showbiz:confetti_cannon"
+        }
+      ]
+    }
+  ]
+}

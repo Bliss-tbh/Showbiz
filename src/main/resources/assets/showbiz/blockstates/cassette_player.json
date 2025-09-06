@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "showbiz:block/cassette_player"
+    },
+    "facing=east": {
+      "model": "showbiz:block/cassette_player",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "showbiz:block/cassette_player",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "showbiz:block/cassette_player",
+      "y": 270
+    }
+  }
+}

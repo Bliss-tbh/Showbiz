@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "showbiz:cassette_player",
+    "showbiz:relay",
+    "showbiz:catwalk",
+    "showbiz:chainlink_fence",
+    "showbiz:donation_mailbox",
+    "showbiz:poweredmailbox",
+    "showbiz:stage_light",
+    "showbiz:clapboard"
+  ]
+}

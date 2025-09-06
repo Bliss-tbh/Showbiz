@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "showbiz:theboard",
+    "showbiz:wrench",
+    "showbiz:limeland",
+    "showbiz:catwalk",
+    "showbiz:empty_cassette",
+    "minecraft:diamond",
+    "showbiz:cassette",
+    "showbiz:clapboard",
+    "showbiz:centrescreen",
+    "showbiz:sponsorship",
+    "showbiz:donation_present",
+    "showbiz:laughing",
+    "showbiz:cassette_player",
+    "showbiz:relay",
+    "showbiz:donation_mailbox",
+    "minecraft:netherite_scrap",
+    "showbiz:presenting",
+    "showbiz:stage_light"
+  ]
+}

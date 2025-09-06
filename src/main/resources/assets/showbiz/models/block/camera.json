@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/camera",
+  "textures": {
+    "all": "showbiz:block/texture",
+    "particle": "showbiz:block/texture",
+    "0": "showbiz:block/texture"
+  },
+  "render_type": "cutout_mipped"
+}

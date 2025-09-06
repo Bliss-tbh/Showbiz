@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "showbiz:starwall"
+    },
+    "title": {
+      "translate": "advancements.glamtime.title"
+    },
+    "description": {
+      "translate": "advancements.glamtime.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glamtime_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:starwall"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  },
+  "parent": "showbiz:showbiz_baby"
+}

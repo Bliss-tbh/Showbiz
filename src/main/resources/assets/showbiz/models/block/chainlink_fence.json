@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/chainlinkfence",
+  "textures": {
+    "all": "showbiz:block/chainlink",
+    "particle": "showbiz:block/chainlink",
+    "0": "showbiz:block/chainlink"
+  },
+  "render_type": "cutout_mipped"
+}

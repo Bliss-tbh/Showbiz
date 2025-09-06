@@ -1,0 +1,7 @@
+{
+  "parent": "showbiz:custom/remote",
+  "textures": {
+    "0": "showbiz:block/remotetex",
+    "particle": "minecraft:item/cake"
+  }
+}

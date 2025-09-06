@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/confetticannon",
+  "textures": {
+    "all": "showbiz:block/confettitex",
+    "particle": "showbiz:block/confettitex",
+    "0": "showbiz:block/confettitex"
+  },
+  "render_type": "solid"
+}

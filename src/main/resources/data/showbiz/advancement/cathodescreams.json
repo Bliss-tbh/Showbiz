@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "showbiz:centrescreen"
+    },
+    "title": {
+      "translate": "advancements.cathodescreams.title"
+    },
+    "description": {
+      "translate": "advancements.cathodescreams.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cathodescreams_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "showbiz:centrescreen"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "showbiz:remote_rec"
+    ]
+  },
+  "parent": "showbiz:backtothe_90s"
+}

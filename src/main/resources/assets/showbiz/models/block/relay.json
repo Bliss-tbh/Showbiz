@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/relaysignal",
+  "textures": {
+    "all": "showbiz:block/relay",
+    "particle": "showbiz:block/relay",
+    "0": "showbiz:block/relay"
+  },
+  "render_type": "translucent"
+}

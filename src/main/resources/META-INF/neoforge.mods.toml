@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="showbiz"
+version="1.0.0"
+displayName="Showbiz"
+displayURL="https://modrinth.com/user/Eternus"
+credits="Mod made by Eternus, music by Toby fox"
+authors="Eternus"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.showbiz]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.137,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.showbiz]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

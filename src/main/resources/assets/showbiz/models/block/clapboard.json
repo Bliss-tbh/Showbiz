@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/openclapboard",
+  "textures": {
+    "all": "minecraft:block/blackstone_top",
+    "particle": "minecraft:block/blackstone_top",
+    "0": "showbiz:block/clapboard"
+  },
+  "render_type": "solid"
+}

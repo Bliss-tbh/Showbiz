@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/cassetteplayer",
+  "textures": {
+    "all": "minecraft:block/anvil",
+    "particle": "minecraft:block/anvil",
+    "0": "showbiz:block/cassteplayer"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,101 @@
+{
+  "clapper": {
+    "subtitle": "subtitles.clapper",
+    "sounds": [
+      {
+        "name": "showbiz:clap",
+        "stream": false
+      }
+    ]
+  },
+  "casseteinputoutput": {
+    "subtitle": "subtitles.casseteinputoutput",
+    "sounds": [
+      {
+        "name": "showbiz:casseteinput",
+        "stream": false
+      }
+    ]
+  },
+  "aww": {
+    "subtitle": "subtitles.aww",
+    "sounds": [
+      {
+        "name": "showbiz:aww",
+        "stream": false
+      }
+    ]
+  },
+  "centrescreen": {
+    "subtitle": "subtitles.centrescreen",
+    "sounds": [
+      {
+        "name": "showbiz:centrescreen",
+        "stream": false
+      }
+    ]
+  },
+  "laughing": {
+    "subtitle": "subtitles.laughing",
+    "sounds": [
+      {
+        "name": "showbiz:laughing",
+        "stream": false
+      }
+    ]
+  },
+  "limeland": {
+    "subtitle": "subtitles.limeland",
+    "sounds": [
+      {
+        "name": "showbiz:limeland",
+        "stream": false
+      }
+    ]
+  },
+  "presenting": {
+    "subtitle": "subtitles.presenting",
+    "sounds": [
+      {
+        "name": "showbiz:presenting",
+        "stream": false
+      }
+    ]
+  },
+  "sponsorship": {
+    "subtitle": "subtitles.sponsorship",
+    "sounds": [
+      {
+        "name": "showbiz:sponsorship",
+        "stream": false
+      }
+    ]
+  },
+  "theboard": {
+    "subtitle": "subtitles.theboard",
+    "sounds": [
+      {
+        "name": "showbiz:theboard",
+        "stream": false
+      }
+    ]
+  },
+  "snowingelse": {
+    "subtitle": "subtitles.snowingelse",
+    "sounds": [
+      {
+        "name": "showbiz:itssnowingsomewhereelse",
+        "stream": false
+      }
+    ]
+  },
+  "cannon": {
+    "subtitle": "subtitles.cannon",
+    "sounds": [
+      {
+        "name": "showbiz:confetti-pop-sound",
+        "stream": false
+      }
+    ]
+  }
+}

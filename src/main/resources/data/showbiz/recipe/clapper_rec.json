@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:white_dye",
+    "b": "minecraft:blackstone"
+  },
+  "result": {
+    "id": "showbiz:clapboard",
+    "count": 1
+  }
+}

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/texture",
+		"particle": "block/texture"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [3, 4.5, 6, 9], "texture": "#0"},
+				"east": {"uv": [3, 4.5, 6, 9], "texture": "#0"},
+				"south": {"uv": [3, 4.5, 6, 9], "texture": "#0"},
+				"west": {"uv": [3, 4.5, 6, 9], "texture": "#0"},
+				"up": {"uv": [9, 3, 6, 0], "texture": "#0"},
+				"down": {"uv": [9, 3, 6, 6], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 9, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 7]},
+			"faces": {
+				"north": {"uv": [8, 6, 10, 6.5], "texture": "#0"},
+				"east": {"uv": [8, 6.5, 10, 7], "texture": "#0"},
+				"south": {"uv": [8, 7, 10, 7.5], "texture": "#0"},
+				"west": {"uv": [8, 7.5, 10, 8], "texture": "#0"},
+				"up": {"uv": [8, 8, 6, 6], "texture": "#0"},
+				"down": {"uv": [8, 6, 6, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.25, 0.25, 5.25],
+			"to": [10.75, 5, 10.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 5]},
+			"faces": {
+				"north": {"uv": [13.25, 10.5, 16, 12.875], "texture": "#0"},
+				"east": {"uv": [13.25, 8, 16, 10.375], "texture": "#0"},
+				"south": {"uv": [13.25, 5.5, 16, 7.875], "texture": "#0"},
+				"west": {"uv": [13.25, 0, 16, 2.375], "texture": "#0"},
+				"up": {"uv": [13.25, 2.5, 16, 5.25], "texture": "#0"},
+				"down": {"uv": [13.25, 13.25, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.25, 0, 0],
+			"scale": [0.58, 0.58, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0.25, 0, 0],
+			"scale": [0.58, 0.58, 0.58]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 7.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 7.75, 0]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"head": {
+			"translation": [0, 14.25, 0]
+		},
+		"fixed": {
+			"translation": [0, 3, 0]
+		}
+	}
+}

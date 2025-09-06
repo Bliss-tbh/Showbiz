@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:calibrated_sculk_sensor",
+    "b": "showbiz:camera",
+    "c": "minecraft:iron_bars"
+  },
+  "result": {
+    "id": "showbiz:relay",
+    "count": 1
+  }
+}
