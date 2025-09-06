@@ -1,0 +1,9 @@
+{
+  "parent": "showbiz:custom/endercamera",
+  "textures": {
+    "all": "minecraft:block/anvil",
+    "particle": "minecraft:block/anvil",
+    "0": "showbiz:block/twitchcamera"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "showbiz:block/ender_camera"
+    },
+    "facing=east": {
+      "model": "showbiz:block/ender_camera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "showbiz:block/ender_camera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "showbiz:block/ender_camera",
+      "y": 270
+    }
+  }
+}

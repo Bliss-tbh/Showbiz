@@ -16,6 +16,7 @@ import net.mcreator.showbiz.block.RelayBlock;
 import net.mcreator.showbiz.block.PoweredmailboxBlock;
 import net.mcreator.showbiz.block.GearboxPoweredBlock;
 import net.mcreator.showbiz.block.GearboxBlock;
+import net.mcreator.showbiz.block.EnderCameraBlock;
 import net.mcreator.showbiz.block.DonationPresentBlock;
 import net.mcreator.showbiz.block.DonationMailboxBlock;
 import net.mcreator.showbiz.block.ConfettiCannonBlock;
@@ -49,6 +50,7 @@ public class ShowbizModBlocks {
 	public static final DeferredBlock<Block> GEARBOX_POWERED = register("gearbox_powered", GearboxPoweredBlock::new);
 	public static final DeferredBlock<Block> CHAINLINK_FENCE = register("chainlink_fence", ChainlinkFenceBlock::new);
 	public static final DeferredBlock<Block> CONFETTI_CANNON = register("confetti_cannon", ConfettiCannonBlock::new);
+	public static final DeferredBlock<Block> ENDER_CAMERA = register("ender_camera", EnderCameraBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

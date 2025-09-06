@@ -42,5 +42,6 @@ public class ShowbizModTabs {
 				tabData.accept(ShowbizModBlocks.GEARBOX.get().asItem());
 				tabData.accept(ShowbizModBlocks.CHAINLINK_FENCE.get().asItem());
 				tabData.accept(ShowbizModBlocks.CONFETTI_CANNON.get().asItem());
+				tabData.accept(ShowbizModBlocks.ENDER_CAMERA.get().asItem());
 			}).build());
 }

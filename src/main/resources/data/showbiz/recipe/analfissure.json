@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "showbiz:camera",
+    "minecraft:ender_eye"
+  ],
+  "result": {
+    "id": "showbiz:ender_camera",
+    "count": 1
+  }
+}

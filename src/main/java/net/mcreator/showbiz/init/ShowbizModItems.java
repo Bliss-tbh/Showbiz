@@ -55,6 +55,7 @@ public class ShowbizModItems {
 	public static final DeferredItem<Item> GEARBOX = block(ShowbizModBlocks.GEARBOX);
 	public static final DeferredItem<Item> CHAINLINK_FENCE = block(ShowbizModBlocks.CHAINLINK_FENCE);
 	public static final DeferredItem<Item> CONFETTI_CANNON = block(ShowbizModBlocks.CONFETTI_CANNON);
+	public static final DeferredItem<Item> ENDER_CAMERA = block(ShowbizModBlocks.ENDER_CAMERA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

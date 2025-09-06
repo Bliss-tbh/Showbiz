@@ -2152,6 +2152,35 @@
           "src/main/java/net/mcreator/showbiz/procedures/ConfettiCannonRedstoneOnProcedure.java"
         ]
       }
+    },
+    {
+      "name": "EnderCamera",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_camera",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/loot_table/blocks/ender_camera.json",
+          "src/main/resources/assets/showbiz/items/ender_camera.json",
+          "src/main/resources/assets/showbiz/models/block/ender_camera.json",
+          "src/main/resources/assets/showbiz/blockstates/ender_camera.json",
+          "src/main/java/net/mcreator/showbiz/block/EnderCameraBlock.java",
+          "src/main/resources/assets/showbiz/models/item/ender_camera.json"
+        ]
+      }
+    },
+    {
+      "name": "Analfissure",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "analfissure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/showbiz/recipe/analfissure.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2326,6 +2355,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EnderCamera",
       "~CUSTOM:ChainlinkFence",
       "~CUSTOM:Poweredmailbox",
       "~CUSTOM:DonationMailbox",
@@ -2448,7 +2478,8 @@
       "advancements.signalsimulator.descr": "Obtain a relay",
       "advancements.signalsimulator.title": "Signal simulator",
       "item.showbiz.confetti_cannon": "Confetti Cannon",
-      "subtitles.cannon": "Confetti cannon"
+      "subtitles.cannon": "Confetti cannon",
+      "item.showbiz.ender_camera": "Ender Camera"
     }
   },
   "metadata": {
